@@ -12,7 +12,6 @@ def print_arguments(args):
     if len(args) == 1:
         print("Aucun argument fourni.")
     else:
-        print("Arguments fournis:")
         # Itère sur les arguments (en excluant le nom du script)
         for arg in args[1:]:
             print(arg)
